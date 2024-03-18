@@ -3,5 +3,8 @@ Write a method verifying the input JSON data. Input data format is defined as AW
 
 Method should return logical false if an input JSON Resource field contains a single asterisk and true in any other case.
 
-##### To run this program type command:
+##### To run this program, type command:
 `python3 remitly.py`
+
+
+You will not need external python libraries installed to run this program.
