@@ -1,0 +1,18 @@
+// name changed
+{
+    "PolicyName": "root",
+    "PolicyDocumentation": {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "IamListAccess",
+                "Effect": "Allow",
+                "Action": [
+                    "iam:ListRoles",
+                    "iam:ListUsers"
+                ],
+                "Resource": "*"
+            }
+        ]
+    }
+}
